@@ -1,0 +1,1204 @@
+2025-06-18 15:14:55,230 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-18 15:14:55,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-18 15:15:06,279 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:06] "GET / HTTP/1.1" 200 -
+2025-06-18 15:15:08,389 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-18 15:15:15,721 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:15] "GET / HTTP/1.1" 200 -
+2025-06-18 15:15:40,804 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:40] "GET /get-cookies HTTP/1.1" 200 -
+2025-06-18 15:15:40,880 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:40] "GET /static/img/step1.png HTTP/1.1" 200 -
+2025-06-18 15:15:40,893 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:15:40] "GET /static/img/step2.png HTTP/1.1" 200 -
+2025-06-18 15:16:37,548 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:16:37] "[36mGET /static/img/step2.png HTTP/1.1[0m" 304 -
+2025-06-18 15:18:06,385 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:06,481 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:06,557 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:06,642 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:06,742 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:06,817 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,045 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,244 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,331 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,410 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,495 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:18:07,495 - zhihu_parser - ERROR - Too many failures fetching column data, giving up
+2025-06-18 15:18:07,496 - zhihu_parser - INFO - Column processing complete. Success: 0, Failed: 0
+2025-06-18 15:18:07,496 - web_app - INFO - Successfully processed https://www.zhihu.com/column/c_1910982530745766012, title: ÃÀ¹úÕþÖÎ·ÖÎö
+2025-06-18 15:18:07,500 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:18:07] "POST / HTTP/1.1" 200 -
+2025-06-18 15:18:36,694 - zhihu_parser - INFO - Successfully parsed answer: (20250618)ÄÚËþÄáÑÇºú²É·ÃÊ±¹«¿ªÍþÐ²²»ÅÅ³ý¸Éµô¹þÃ·ÄÚÒÁÈçºÎÆÀ¼ÛÕâÒ»ÑÔÂÛÒÁÀÊ»áÍö¹úÂð_Ç°ÑàÎâÍõÄ½ÈÝ´¹
+2025-06-18 15:18:36,695 - web_app - INFO - Successfully processed https://www.zhihu.com/question/1918302173617430794/answer/1918616552367985757, title: (20250618)ÄÚËþÄáÑÇºú²É·ÃÊ±¹«¿ªÍþÐ²²»ÅÅ³ý¸Éµô¹þÃ·ÄÚÒÁÈçºÎÆÀ¼ÛÕâÒ»ÑÔÂÛÒÁÀÊ»áÍö¹úÂð_Ç°ÑàÎâÍõÄ½ÈÝ´¹
+2025-06-18 15:18:36,729 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:18:36] "POST / HTTP/1.1" 200 -
+2025-06-18 15:19:01,091 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:19:01] "GET /api/logs?type=zhihu HTTP/1.1" 200 -
+2025-06-18 15:19:52,757 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:52,832 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:52,889 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:52,975 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,033 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,095 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,155 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,313 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,408 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,492 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,579 - zhihu_parser - ERROR - Error fetching column data: 'data'
+2025-06-18 15:19:53,579 - zhihu_parser - ERROR - Too many failures fetching column data, giving up
+2025-06-18 15:19:53,580 - zhihu_parser - INFO - Column processing complete. Success: 0, Failed: 0
+2025-06-18 15:19:53,580 - web_app - INFO - Successfully processed https://www.zhihu.com/column/c_1912570955689093077, title: °®Çé¶¯×÷ÓëµçÓ°
+2025-06-18 15:19:53,583 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:19:53] "POST / HTTP/1.1" 200 -
+2025-06-18 15:21:12,717 - zhihu_parser - INFO - Successfully parsed answer: (20250617)ÎÒÃÇÏÖÔÚÁË½âµ½µÄÀúÊ·ÊÇ²»ÊÇÕæÊµµÄÀúÊ·_ÉÏµ¥ìòºâ
+2025-06-18 15:21:12,717 - web_app - INFO - Successfully processed https://www.zhihu.com/question/9910876418/answer/1918365826731442250, title: (20250617)ÎÒÃÇÏÖÔÚÁË½âµ½µÄÀúÊ·ÊÇ²»ÊÇÕæÊµµÄÀúÊ·_ÉÏµ¥ìòºâ
+2025-06-18 15:21:12,722 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 15:21:12] "POST / HTTP/1.1" 200 -
+2025-06-18 19:13:13,006 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 19:13:13] "GET / HTTP/1.1" 200 -
+2025-06-18 19:13:31,387 - werkzeug - INFO - 127.0.0.1 - - [18/Jun/2025 19:13:31] "GET /api/logs?type=zhihu HTTP/1.1" 200 -
+2025-06-19 09:30:15,094 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 09:30:15] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 09:31:33,640 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 09:31:33] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 09:38:10,807 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 09:38:10] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 09:54:55,229 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 09:54:55] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 10:06:27,959 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 10:06:27] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 10:54:12,949 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 10:54:12] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 11:10:20,249 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 11:10:20] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 11:16:56,784 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 11:16:56] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-19 14:12:35,743 - werkzeug - INFO - 127.0.0.1 - - [19/Jun/2025 14:12:35] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-20 13:45:05,214 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 13:45:05,215 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 13:45:06,807 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:45:06] "GET / HTTP/1.1" 200 -
+2025-06-20 13:46:37,074 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:46:37] "GET / HTTP/1.1" 200 -
+2025-06-20 13:46:39,124 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:46:39] "GET / HTTP/1.1" 200 -
+2025-06-20 13:46:39,992 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:46:39] "GET / HTTP/1.1" 200 -
+2025-06-20 13:47:17,827 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:47:17] "GET / HTTP/1.1" 200 -
+2025-06-20 13:47:20,782 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:47:20] "GET / HTTP/1.1" 200 -
+2025-06-20 13:47:28,688 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 13:47:28,688 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 13:47:31,201 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\Downloads\zhihu-download-main\app.py", line 103, in index
+    return render_template("index.html")
+  File "E:\Program\veighna_studio\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Downloads\zhihu-download-main\templates\index.html", line 390, in template
+    placeholder="_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155; _tea_utm_cache_586864={%22utm_content%22:%22search_preset%22}; SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253"
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-06-20 13:47:31,314 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:47:31] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-20 13:47:32,710 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\Downloads\zhihu-download-main\app.py", line 103, in index
+    return render_template("index.html")
+  File "E:\Program\veighna_studio\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Downloads\zhihu-download-main\templates\index.html", line 390, in template
+    placeholder="_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155; _tea_utm_cache_586864={%22utm_content%22:%22search_preset%22}; SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253"
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-06-20 13:47:32,711 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:47:32] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-20 13:47:33,858 - app - ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\Downloads\zhihu-download-main\app.py", line 103, in index
+    return render_template("index.html")
+  File "E:\Program\veighna_studio\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Downloads\zhihu-download-main\templates\index.html", line 390, in template
+    placeholder="_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155; _tea_utm_cache_586864={%22utm_content%22:%22search_preset%22}; SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253"
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-06-20 13:47:33,859 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:47:33] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2025-06-20 13:48:13,021 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 13:48:13,022 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 13:48:17,976 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:17] "GET / HTTP/1.1" 200 -
+2025-06-20 13:48:28,805 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:28] "GET / HTTP/1.1" 200 -
+2025-06-20 13:48:30,364 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:30] "GET /get-cookies HTTP/1.1" 200 -
+2025-06-20 13:48:30,464 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:30] "GET /static/img/step1.png HTTP/1.1" 200 -
+2025-06-20 13:48:30,464 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:30] "GET /static/img/step2.png HTTP/1.1" 200 -
+2025-06-20 13:48:56,450 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/355160333/answer/1919085934865029091: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: '          SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253\r\n        '
+2025-06-20 13:48:56,455 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:48:56] "POST / HTTP/1.1" 200 -
+2025-06-20 13:49:11,404 - zhihu_parser - ERROR - Error occurred: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: 'SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253\r\n        '
+2025-06-20 13:49:11,420 - zhihu_parser - ERROR - Error parsing answer https://www.zhihu.com/question/355160333/answer/1919085934865029091: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: 'SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253\r\n        '
+2025-06-20 13:49:11,421 - zhihu_parser - ERROR - Error processing URL https://www.zhihu.com/question/355160333/answer/1919085934865029091: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: 'SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253\r\n        '
+2025-06-20 13:49:11,438 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/355160333/answer/1919085934865029091: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: 'SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; tst=r; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398340; BEC=8ce9e721fafad59a55ed220f1ad7f253\r\n        '
+2025-06-20 13:49:11,467 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:49:11] "POST / HTTP/1.1" 200 -
+2025-06-20 13:49:15,468 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:49:15] "GET /api/logs?type=zhihu HTTP/1.1" 200 -
+2025-06-20 13:49:57,090 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:49:57] "GET / HTTP/1.1" 200 -
+2025-06-20 13:50:07,416 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 13:50:07,416 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 13:50:11,691 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:50:11] "GET / HTTP/1.1" 200 -
+2025-06-20 13:50:15,290 - zhihu_parser - ERROR - Error occurred: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: '_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155;SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398525; tst=r; BEC=ec64a27f4feb1b29e8161db426d61998\r\n        '
+2025-06-20 13:50:15,290 - zhihu_parser - ERROR - Error parsing article https://www.zhihu.com/question/1908426377872519494: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: '_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155;SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398525; tst=r; BEC=ec64a27f4feb1b29e8161db426d61998\r\n        '
+2025-06-20 13:50:15,290 - zhihu_parser - ERROR - Error processing URL https://www.zhihu.com/question/1908426377872519494: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: '_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155;SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398525; tst=r; BEC=ec64a27f4feb1b29e8161db426d61998\r\n        '
+2025-06-20 13:50:15,290 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/1908426377872519494: Invalid leading whitespace, reserved character(s), or returncharacter(s) in header value: '_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155;SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398525; tst=r; BEC=ec64a27f4feb1b29e8161db426d61998\r\n        '
+2025-06-20 13:50:15,325 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:50:15] "POST / HTTP/1.1" 200 -
+2025-06-20 13:50:46,781 - zhihu_parser - INFO - Successfully parsed article: (20250521)Untitled_Íõ¿Ëµ¤
+2025-06-20 13:50:46,802 - web_app - INFO - Successfully processed https://www.zhihu.com/question/1908426377872519494, title: (20250521)Untitled_Íõ¿Ëµ¤
+2025-06-20 13:50:46,817 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:50:46] "POST / HTTP/1.1" 200 -
+2025-06-20 13:51:09,253 - zhihu_parser - INFO - Successfully parsed answer: (20250619)ÄÇÐ©»îµÃºÜäìÈ÷ËæÐÔµÄÈËºóÀ´ÔõÃ´ÑùÁË_Ä¦µÇÖÐ²ú
+2025-06-20 13:51:09,254 - web_app - INFO - Successfully processed https://www.zhihu.com/question/355160333/answer/1919085934865029091, title: (20250619)ÄÇÐ©»îµÃºÜäìÈ÷ËæÐÔµÄÈËºóÀ´ÔõÃ´ÑùÁË_Ä¦µÇÖÐ²ú
+2025-06-20 13:51:09,272 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:51:09] "POST / HTTP/1.1" 200 -
+2025-06-20 13:57:08,788 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 13:57:08,788 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 13:57:10,870 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:57:10] "GET / HTTP/1.1" 200 -
+2025-06-20 13:57:42,991 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:57:42] "GET / HTTP/1.1" 200 -
+2025-06-20 13:58:02,514 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:58:02] "GET / HTTP/1.1" 200 -
+2025-06-20 13:58:53,837 - zhihu_parser - INFO - Successfully parsed answer: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 13:58:53,838 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 13:58:53,838 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 13:58:54,186 - zhihu_parser - INFO - Successfully parsed answer: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 13:58:54,186 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 13:58:54,187 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 13:58:54,857 - zhihu_parser - INFO - Successfully parsed answer: (20231120)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÎÒ½Ð°×Ð¡´¿
+2025-06-20 13:58:54,857 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3295011409, title: (20231120)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÎÒ½Ð°×Ð¡´¿
+2025-06-20 13:58:54,857 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3295011409: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 13:58:54,860 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 13:58:54] "POST / HTTP/1.1" 200 -
+2025-06-20 14:00:58,660 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:00:58,660 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:01:24,334 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:01:24,335 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:01:28,075 - zhihu_parser - INFO - Successfully parsed answer: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:01:28,076 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:01:28,076 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:01:28,463 - zhihu_parser - INFO - Successfully parsed answer: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:01:28,463 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:01:28,463 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:01:29,081 - zhihu_parser - INFO - Successfully parsed answer: (20231120)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÎÒ½Ð°×Ð¡´¿
+2025-06-20 14:01:29,081 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3295011409, title: (20231120)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÎÒ½Ð°×Ð¡´¿
+2025-06-20 14:01:29,081 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3295011409: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:01:29,086 - app - ERROR - Exception on / [POST]
+Traceback (most recent call last):
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 1473, in wsgi_app
+    response = self.full_dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 882, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 880, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "E:\Program\veighna_studio\lib\site-packages\flask\app.py", line 865, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+  File "D:\Downloads\zhihu-download-main\app.py", line 110, in index
+    return render_template("index.html", result_msg="<br>".join(results))
+  File "E:\Program\veighna_studio\lib\site-packages\flask\templating.py", line 149, in render_template
+    template = app.jinja_env.get_or_select_template(template_name_or_list)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1084, in get_or_select_template
+    return self.get_template(template_name_or_list, parent, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 1013, in get_template
+    return self._load_template(name, globals)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 972, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\loaders.py", line 138, in load
+    code = environment.compile(source, name, filename)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 768, in compile
+    self.handle_exception(source=source_hint)
+  File "E:\Program\veighna_studio\lib\site-packages\jinja2\environment.py", line 939, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "D:\Downloads\zhihu-download-main\templates\index.html", line 374, in template
+    >_xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; captcha_session_v2=2|1:0|10:1747940295|18:captcha_session_v2|88:Q1JvbHBPZEx5VXlxSldwQmpva0RpelZtNys5R3RWL0l4L0xKOTJKTThvZmRoR004elZJQmxpVEMrNUgxYkJiOQ==|9eb8024dd46e53c695a99cc5a2ee60f15c64d8f6bea00b0505de26ea270edcb0; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; gdxidpyhxdE=HDp8xuksbhTJJP%2B%2BQ1URI05oc2W4deWJ7X5G92aCJK2LLjOYDn3bx39m5539VkZRvhDXAjNJXeHheUf4u7qxmKxBaMsOSuydc4ZlSRACewdADqNBXpWHVTLxrSWJgKK6pJHMDcpDsyvIEw5t5QpiJWUM2JuoBsHo78buO%5Cu%2F3uVq5PQ%2F%3A1747941196983; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; captcha_ticket_v2=2|1:0|10:1747940302|17:captcha_ticket_v2|728:eyJ2YWxpZGF0ZSI6IkNOMzFfRThTeTQ2YUIzMWZZd2JrNUlwVG8uWml5cUw4U3ZabXpOcm9zd2dnczVPM1FuYXpkRUw2WmNFKjlkWnZVKm1EUjRZenZNSmE5eUhPRW9waVJlejZqb1lIVzNGZ1dqMlVBUTVCYlpPUUt5RFdTOTNVZGRRQkV5YmcuM2Z6b2FCS2pCM1QqRmRnX2dFZjZVYm5GcC5yeE1nZUZSREF2b1Vtd1hZVEJpTlVoOElnOEl6cFNTV3M1U3F5RXVUVVBudzNMam1lcnVCTDZnWFVrSF9mQ1ZpaGVDKk9iTzVhbWlaNERrcG1HOTFEZWpFU2g5V1Q1TWZHQndGeFViMnVONGM1bEsyU1ZhV1hfMHhIWjlKY0ZVamlZbUVhQms1NEF5VlRKa3gyUnJDeDA5cTByQk1fNUtFcndFMS4wa0pDVDMuZ3R0RVJGSlRnS0tqTEh0dm9lcHR6UVRGQzRhZWQxSWM2X0Zhc19Xa19qTjIyZlBaR1NIeUk4TWtNeDRuYVFwTDl2MWdfS2s5STRkTmUuUWtqdV93TVJMaDY2MUExRldMQWdIenVDSDM0dk8ubU1MaWVEV2FYSDBJc0FZcWZtVmlBUDI4aENPcEVXOUFyMEpkdTRycWpBZG5sRnVGSE9SLlJwdCpTcFJLMEFZV3ZTVHF3TjJxTnlrSE5KdnZUR0lSMElxelZQNVg3N192X2lfMSJ9|3adef6cd0f29fbe95bf0a2b49079dc495255fdd35bd87a9f0ef6b768981fc4b7; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; z_c0=2|1:0|10:1749017468|4:z_c0|92:Mi4xd0NJa0FBQUFBQUExczlNVnZHcC1HaVlBQUFCZ0FsVk5LY0ljYVFBZ0ttXzFWRjkzYTl2SGVMOU1WWDNMRTREVFJR|633a96385893a24bf2d91724b89c116fb71c1ead40ff60f9fd1cc362dcb51e5c; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155; _tea_utm_cache_586864={%22utm_content%22:%22search_preset%22}; SESSIONID=wHVIUiF7uwr4ny44te7Jwdj7XAY5P7m8wbPTW23ahLN; JOID=VlocAkjSdDGF1XiUaNZVbmUKyIN8ozdvzocX2VegBUi5uQamVxIxaejUdZdi2EBsCAzPFVO1grfJkLCJo22R7OA=; osd=VF8SBk7QcT-B03qRZtJTbGAEzIV-pjlryIUS11OmB023vQCkUhw1b-rRe5Nk2kViDArNEF2xhLXMnrSPoWif6OY=; __zse_ck=004_AB6Mj/CdDX=L7p/oQ46fA38PL7GkZVjRY4PK9mxE8/=xeSjDCjjbZvdQdEsX69ypRQVguXnr8o/yIdq0tgvgv/qqFIdfQ0kpJ0shvhb4LIH2G/U=p/IPtZu9VPEO65If-kz7mjdDJBiuOOMmnZ0XIpdb9fmOkyNJK37rcb15oVT8tjZRUc3GRlcKgp84Na0aOdYe0bZ96err75naKDjn9dgNTPfQ6hk9M2ta97rSg7LHtmY3A2k5lutG2FsG/v1kg; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1750398525; tst=r; BEC=ec64a27f4feb1b29e8161db426d61998</textarea>
+jinja2.exceptions.TemplateSyntaxError: tag name expected
+2025-06-20 14:01:29,146 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:01:29] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-06-20 14:05:54,350 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:05:54,350 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:05:58,954 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:05:58] "GET / HTTP/1.1" 200 -
+2025-06-20 14:06:27,168 - zhihu_parser - INFO - Successfully parsed answer: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:06:27,168 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:06:27,168 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:06:27,482 - zhihu_parser - INFO - Successfully parsed answer: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:06:27,483 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:06:27,483 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:06:27,485 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:06:27] "POST / HTTP/1.1" 200 -
+2025-06-20 14:06:57,866 - zhihu_parser - INFO - Successfully parsed answer: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:06:57,866 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:06:57,866 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:06:58,249 - zhihu_parser - INFO - Successfully parsed answer: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:06:58,250 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:06:58,250 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:06:58,251 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:06:58] "POST / HTTP/1.1" 200 -
+2025-06-20 14:07:43,940 - zhihu_parser - INFO - Successfully parsed answer: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:07:43,940 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:07:43,940 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:07:44,364 - zhihu_parser - INFO - Successfully parsed answer: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:07:44,364 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:07:44,364 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:07:45,022 - zhihu_parser - INFO - Successfully parsed answer: (20231114)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_º®·ç
+2025-06-20 14:07:45,035 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3287830842, title: (20231114)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_º®·ç
+2025-06-20 14:07:45,035 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3287830842: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:07:45,354 - zhihu_parser - INFO - Successfully parsed answer: (20231128)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_¹ØÒä±±
+2025-06-20 14:07:45,354 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3305135068, title: (20231128)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_¹ØÒä±±
+2025-06-20 14:07:45,354 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3305135068: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:07:45,357 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:07:45] "POST / HTTP/1.1" 200 -
+2025-06-20 14:08:35,384 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:08:35] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-20 14:10:29,393 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:10:29] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-20 14:14:15,497 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:14:15] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-20 14:18:35,187 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:18:35,187 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:21:10,152 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:21:10,152 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:21:18,819 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:21:18] "GET / HTTP/1.1" 200 -
+2025-06-20 14:21:23,596 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:21:23] "POST /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 14:24:02,114 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:24:02] "GET /get-cookies HTTP/1.1" 200 -
+2025-06-20 14:24:02,238 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:24:02] "GET /static/img/step2.png HTTP/1.1" 200 -
+2025-06-20 14:24:02,294 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:24:02] "GET /static/img/step1.png HTTP/1.1" 200 -
+2025-06-20 14:39:59,794 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:39:59] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 14:43:26,195 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 14:43:26,195 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 14:43:44,425 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:43:44] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 14:43:44,428 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:43:44] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 14:44:50,953 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:44:50] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 14:44:50,957 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:44:50] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 14:52:55,560 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:52:55] "[33mPOST /webhook HTTP/1.1[0m" 404 -
+2025-06-20 14:56:18,517 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:56:18] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 14:56:18,521 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:56:18] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 14:58:40,051 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:58:40] "[31m[1mGET /api/zhihu_hot_answers HTTP/1.1[0m" 405 -
+2025-06-20 14:58:40,052 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:58:40] "[31m[1mGET /api/zhihu_hot_answers HTTP/1.1[0m" 405 -
+2025-06-20 14:59:16,355 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:59:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-20 14:59:25,107 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3242212779, title: (20231009)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_»³Ðé
+2025-06-20 14:59:25,108 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3242212779: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:59:25,553 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/1903403822556092170, title: (20250507)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÌìÌì³ÔÈâ
+2025-06-20 14:59:25,553 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/1903403822556092170: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:59:26,193 - web_app - INFO - Successfully processed https://www.zhihu.com/question/487458750/answer/3295011409, title: (20231120)×ö½»Ò×ºÜ¶àÄê´ó¼Ò×î´óµÄ¸ÐÎòÊÇÊ²Ã´_ÎÒ½Ð°×Ð¡´¿
+2025-06-20 14:59:26,193 - web_app - ERROR - Error processing zhihu URL https://www.zhihu.com/question/487458750/answer/3295011409: 'ZhihuParser' object has no attribute 'output_dir'
+2025-06-20 14:59:26,200 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:59:26] "POST / HTTP/1.1" 200 -
+2025-06-20 14:59:26,236 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:59:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-06-20 14:59:27,603 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 14:59:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-20 15:02:01,616 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:02:01,616 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:02:12,084 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:02:12] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 15:02:12,087 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:02:12] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 15:02:57,134 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:02:57,134 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:03:05,758 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:03:05] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 15:03:05,761 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:03:05] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 15:03:43,529 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:03:43,529 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:03:51,691 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:03:51] "OPTIONS /api/zhihu_hot_answers HTTP/1.1" 200 -
+2025-06-20 15:03:51,696 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:03:51] "[31m[1mPOST /api/zhihu_hot_answers HTTP/1.1[0m" 400 -
+2025-06-20 15:04:43,477 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:04:43] "[31m[1mGET /api/zhihu_hot_answers HTTP/1.1[0m" 405 -
+2025-06-20 15:04:43,490 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:04:43] "[31m[1mGET /api/zhihu_hot_answers HTTP/1.1[0m" 405 -
+2025-06-20 15:04:43,876 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:04:43] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 15:04:43,890 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:04:43] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 15:05:01,650 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:05:01,651 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:05:22,671 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:05:22] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:05:22,673 - web_app - INFO - {'urls': ['https://www.zhihu.com/question/487458750/answer/3242212779', 'https://www.zhihu.com/question/487458750/answer/1903403822556092170', 'https://www.zhihu.com/question/487458750/answer/3295011409', 'https://www.zhihu.com/question/487458750/answer/3287830842', 'https://www.zhihu.com/question/487458750/answer/3305135068', 'https://www.zhihu.com/question/487458750/answer/3111105215', 'https://www.zhihu.com/question/487458750/answer/3353363884', 'https://www.zhihu.com/question/487458750/answer/3377021465', 'https://www.zhihu.com/question/487458750/answer/4026040067', 'https://www.zhihu.com/question/487458750/answer/3241852377', 'https://www.zhihu.com/question/487458750/answer/99195131636', 'https://www.zhihu.com/question/487458750/answer/3356691060', 'https://www.zhihu.com/question/487458750/answer/2136008072', 'https://www.zhihu.com/question/487458750/answer/3293938829', 'https://www.zhihu.com/question/487458750/answer/3580578642']}
+2025-06-20 15:05:22,674 - web_app - INFO - ['https://www.zhihu.com/question/487458750/answer/3242212779', 'https://www.zhihu.com/question/487458750/answer/1903403822556092170', 'https://www.zhihu.com/question/487458750/answer/3295011409', 'https://www.zhihu.com/question/487458750/answer/3287830842', 'https://www.zhihu.com/question/487458750/answer/3305135068', 'https://www.zhihu.com/question/487458750/answer/3111105215', 'https://www.zhihu.com/question/487458750/answer/3353363884', 'https://www.zhihu.com/question/487458750/answer/3377021465', 'https://www.zhihu.com/question/487458750/answer/4026040067', 'https://www.zhihu.com/question/487458750/answer/3241852377', 'https://www.zhihu.com/question/487458750/answer/99195131636', 'https://www.zhihu.com/question/487458750/answer/3356691060', 'https://www.zhihu.com/question/487458750/answer/2136008072', 'https://www.zhihu.com/question/487458750/answer/3293938829', 'https://www.zhihu.com/question/487458750/answer/3580578642']
+2025-06-20 15:05:25,374 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:05:25] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:10:10,024 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:10:10,024 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:10:23,195 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:10:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:10:23,726 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:10:23] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:12:03,913 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:12:03,914 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:12:23,840 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:12:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:12:33,472 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:12:33] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:15:38,974 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:15:38,974 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:15:59,471 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:15:59] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:16:01,242 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:16:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:16:44,595 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:16:44,596 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:18:03,013 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:18:03] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:18:37,097 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:18:37] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:23:57,905 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:23:57,905 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:24:14,980 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:24:14] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:24:23,714 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:24:23] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:25:23,136 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:25:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:25:27,817 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:25:27] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:25:47,061 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:25:47,061 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:25:57,102 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:25:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:26:02,672 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:26:02] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:27:12,692 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:27:12,692 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:27:31,171 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:27:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:27:38,776 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:27:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:31:56,121 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:31:56,121 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:32:09,655 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:32:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:32:16,486 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:32:16] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:33:57,264 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:33:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:33:59,994 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:33:59] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:36:03,528 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:36:03,528 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:36:15,058 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:36:15] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:36:17,508 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:36:17] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:39:40,341 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 15:39:40,341 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 15:39:56,348 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:39:56] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:39:58,607 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:39:58] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:45:37,855 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:45:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:45:41,012 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:45:41] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:45:57,826 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:45:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 15:46:01,212 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 15:46:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:20:34,080 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:20:34] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:20:38,565 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:20:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:21:31,325 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:21:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:21:33,586 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:21:33] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:24:15,172 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:24:15] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:24:16,827 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:24:16] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:24:53,534 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:24:53] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:24:56,969 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:24:56] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:26:04,344 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:26:04] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:26:06,468 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:26:06] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:37:18,828 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:37:18] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:37:20,585 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:37:20] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:37:44,585 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:37:44] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:37:46,599 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:37:46] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:38:37,911 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:38:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:38:39,628 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:38:39] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:39:28,147 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:39:28] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:39:29,825 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:39:29] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:40:32,454 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:40:32] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:40:34,119 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:40:34] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:41:14,147 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:41:14] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:41:15,648 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:41:15] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:41:51,690 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:41:51] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:41:53,345 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:41:53] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:43:12,910 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:43:12] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:43:14,690 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:43:14] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:43:42,325 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:43:42] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:43:43,738 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:43:43] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:44:10,083 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:44:10] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:44:11,529 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:44:11] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:46:20,822 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:46:20] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:46:22,358 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:46:22] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:47:00,864 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:47:00] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:47:02,898 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:47:02] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:50:22,751 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:50:22] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:50:24,817 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:50:24] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:53:42,506 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:53:42] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 17:54:33,350 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 17:54:33] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 19:57:37,236 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 19:57:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 19:57:38,637 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 19:57:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 19:58:50,718 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 19:58:50] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 19:59:05,796 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 19:59:05] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:00:03,779 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:00:03] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:00:26,816 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:00:26] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:17:50,266 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:17:50] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:17:53,898 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:17:53] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:42:03,477 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:42:03] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:42:10,293 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:42:10] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:45:35,665 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:45:35] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:45:42,716 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:45:42] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:48:30,136 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:48:30] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:49:07,843 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:49:07] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:49:49,883 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:49:49] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:50:01,310 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:50:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:51:32,232 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:51:32] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:51:38,500 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:51:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:52:32,783 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:52:32] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:52:56,876 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:52:56] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:53:45,098 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:53:45] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:53:55,660 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:53:55] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:55:08,087 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:55:08] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:55:11,349 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:55:11] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:57:00,751 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:57:00] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:57:01,675 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:57:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:57:37,905 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:57:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:57:41,082 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:57:41] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:58:10,582 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:58:10] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 20:59:35,772 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 20:59:35] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:48:09,498 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:48:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:48:22,396 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:48:22] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:49:03,159 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:49:03] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:49:26,259 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:49:26] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:49:54,614 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:49:54] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:50:02,104 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:50:02] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:51:49,222 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:51:49] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:51:59,393 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:51:59] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:01,458 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:09,507 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:16,142 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:16] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:16,781 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:16] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:17,024 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:17] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:22,568 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:22] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:23,608 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:23] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:24,062 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:24] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:25,619 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:25] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:27,961 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:27] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:34,825 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:34] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 21:52:45,325 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 21:52:45] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:07:08,942 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:07:08] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:07:09,830 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:07:09] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:09:31,257 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:09:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:09:32,297 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:09:32] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:10:49,163 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:10:49] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:10:51,706 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:10:51] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:11:31,889 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:11:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:11:36,400 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:11:36] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:31:34,762 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:31:34] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:31:36,333 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:31:36] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:32:28,145 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:32:28] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 22:32:28,146 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:32:28] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 22:32:56,783 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:32:56] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 22:32:56,794 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:32:56] "[31m[1mGET /api/zhihu_batch_answers HTTP/1.1[0m" 405 -
+2025-06-20 22:34:22,174 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:34:22] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:34:23,699 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:34:23] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:34:28,066 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:34:28] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:34:34,422 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:34:34] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:34:37,037 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:34:37] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:35:56,094 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:35:56] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:36:02,767 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:36:02] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:36:04,361 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:36:04] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:36:07,985 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:36:07] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:36:31,704 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:36:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:36:34,067 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:36:34] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:38:09,867 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:38:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:38:11,332 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:38:11] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:38:23,485 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:38:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:38:26,245 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:38:26] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:38:59,845 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:38:59] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:39:01,508 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:39:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:42:03,779 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:42:03] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:42:14,071 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:42:14] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:43:44,753 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:43:44] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:43:57,306 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:43:57] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:45:34,290 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:45:34] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:45:35,451 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:45:35] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:46:12,710 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:46:12] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:46:14,476 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:46:14] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:46:45,102 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 22:46:45,103 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 22:47:19,802 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:47:19] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:47:21,519 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:47:21] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:48:24,863 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:48:24] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:48:26,891 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:48:26] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 22:51:33,212 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 22:51:33,212 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 22:51:33,257 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 22:51:33,581 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 22:51:33,592 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 22:52:23,187 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:52:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:52:24,505 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:52:24] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:53:40,396 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 22:53:40,448 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 22:53:40,776 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 22:53:40,782 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 22:53:46,833 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 22:53:46,892 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 22:53:47,229 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 22:53:47,233 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 22:53:53,292 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 22:53:53,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 22:53:53,294 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 22:53:53,609 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 22:53:53,614 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 22:54:39,653 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:54:39] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:54:41,153 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:54:41] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:56:08,253 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:56:08] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:56:08,470 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:56:08] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:56:32,536 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 22:56:32,599 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 22:57:01,941 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 22:57:01,941 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 22:57:58,790 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:57:58] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:58:00,610 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:58:00] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:58:58,146 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:58:58] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 22:58:58,546 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 22:58:58] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:00:19,712 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:00:19] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:00:20,967 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:00:20] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:00:43,086 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:00:43,086 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:01:23,618 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:01:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:01:24,540 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:01:24] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:06:09,135 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:06:09,135 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:06:41,371 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:06:41] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:06:42,654 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:06:42] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:06:55,408 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:06:55,408 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:06:55,440 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:06:55,761 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:06:55,771 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:07:31,336 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:07:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:07:32,337 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:07:32] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:07:33,121 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:07:33,180 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:07:33,596 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:07:33,601 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:07:43,675 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:07:43,710 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:07:44,044 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:07:44,050 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:07:46,078 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:07:46,078 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:07:46,079 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:07:46,390 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:07:46,395 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:08:13,315 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:08:13] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:08:14,357 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:08:14] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:10:03,387 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:10:03,475 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:10:04,103 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:10:04,110 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:10:14,189 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:10:14,244 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:10:16,313 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:10:16,313 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:10:16,314 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:10:16,651 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:10:16,657 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:10:47,795 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:10:47] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:10:48,692 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:10:48] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:11:40,251 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:11:40,340 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:11:41,200 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:11:41,206 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:11:51,289 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:11:51,349 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:11:51,742 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:11:51,747 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:12:17,951 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:12:18,008 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:12:18,368 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:12:18,376 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:12:31,464 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:12:31,532 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:12:31,861 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:12:31,865 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:12:40,448 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:12:40,448 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:12:40,449 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:12:40,757 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:12:40,762 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:13:17,446 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:13:17] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:13:18,427 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:13:18] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:14:21,648 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:14:21,790 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:14:22,345 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:14:22,351 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:14:28,420 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:14:28,560 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:14:29,012 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:14:29,022 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:14:30,455 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:14:30,455 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:14:30,456 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:14:30,787 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:14:30,792 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:15:32,838 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:15:32] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:15:35,729 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:15:35] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 23:16:54,657 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:16:54,723 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:16:55,080 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:16:55,085 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:17:15,266 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:17:15,266 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:17:15,267 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:17:15,592 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:17:15,597 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:18:20,014 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:18:20,060 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:18:20,422 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:18:20,428 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:18:47,641 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:18:47,690 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:18:48,754 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:18:48,759 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:18:53,803 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:18:53,859 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:18:54,218 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:18:54,223 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:18:55,875 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:18:55,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:18:55,876 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:18:56,180 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:18:56,184 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:19:37,638 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:19:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:19:40,080 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:19:40] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-20 23:22:42,481 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:22:42,532 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:23:50,076 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:23:50,077 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:23:50,078 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:23:50,401 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:23:50,405 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:24:31,077 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:24:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:24:32,041 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:24:32] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:24:59,849 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:24:59,910 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:25:00,288 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:25:00,294 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:25:04,445 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:25:04,445 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:25:04,446 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:25:04,754 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:25:04,759 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:25:51,550 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:25:51] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:25:52,552 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:25:52] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:27:06,772 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:27:06,955 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:27:07,384 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:27:07,389 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:27:20,489 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:27:20,563 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:27:20,926 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:27:20,931 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:32:21,123 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:32:21,124 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:32:21,125 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:32:21,444 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:32:21,449 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:32:55,385 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:32:55] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:32:58,096 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:32:58] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:34:19,145 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:34:19,188 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:34:19,929 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:34:19,933 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:34:40,070 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:34:40,112 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:34:40,427 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:34:40,432 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:34:42,459 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:34:42,506 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:34:42,832 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:34:42,837 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:34:46,235 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:34:46,235 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:34:46,236 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:34:46,577 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:34:46,583 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:35:52,325 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:35:52,325 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:35:52,326 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:35:52,632 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:35:52,636 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:36:26,411 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:36:26] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:36:29,476 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:36:29] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:37:24,446 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:37:24,723 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:37:25,178 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:37:25,184 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:37:32,248 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:37:32,320 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:37:32,693 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:37:32,698 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:37:45,605 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:37:45,605 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:37:45,606 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:37:45,940 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:37:45,945 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:38:16,826 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:38:16] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:38:20,141 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:38:20] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:40:21,387 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:40:21,544 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:40:29,757 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:40:29,763 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:40:32,004 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:40:32,004 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:40:32,005 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:40:32,351 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:40:32,356 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:41:04,617 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:41:04] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:41:08,138 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:41:08] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:44:25,646 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:44:25,699 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:44:34,531 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:44:34,537 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:44:37,563 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:44:37,563 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:44:37,564 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:44:37,879 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:44:37,884 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:45:09,173 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:45:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:45:09,540 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:45:09] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:45:47,297 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:45:47,376 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:45:48,494 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:45:48,499 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:45:53,541 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:45:53,596 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:45:53,964 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:45:53,970 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:46:22,176 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:46:22,269 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:46:22,730 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:46:22,736 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:46:29,808 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:46:29,860 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:46:30,294 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:46:30,300 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:46:31,323 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:46:31,379 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:46:31,808 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:46:31,816 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:46:45,616 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:46:45,617 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:46:45,618 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:46:45,932 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:46:45,937 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:47:34,243 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:47:34,312 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:47:34,915 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:47:34,920 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:47:48,007 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:47:48,054 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:47:48,406 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:47:48,411 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:48:53,774 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:48:53,832 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:48:54,199 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:48:54,204 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:49:10,313 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:49:10,353 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:49:10,725 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:49:10,732 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:49:19,802 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-20 23:49:19,851 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:50:03,450 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:50:03,450 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:50:03,451 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:50:03,766 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:50:03,771 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:50:29,912 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:50:29] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:50:31,125 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:50:31] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:51:35,790 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:51:35] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:51:53,543 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:51:53] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:53:55,236 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-20 23:53:55,290 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:53:55,834 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:53:55,840 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:53:59,515 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-20 23:53:59,515 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-20 23:53:59,516 - werkzeug - INFO -  * Restarting with stat
+2025-06-20 23:53:59,822 - werkzeug - WARNING -  * Debugger is active!
+2025-06-20 23:53:59,826 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-20 23:55:08,173 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:55:08] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:55:09,067 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:55:09] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:56:44,685 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:56:44] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:57:12,991 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:57:12] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:58:19,148 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:58:19] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:58:19,976 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:58:19] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:59:22,028 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:59:22] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-20 23:59:40,856 - werkzeug - INFO - 127.0.0.1 - - [20/Jun/2025 23:59:40] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:01:03,605 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-21 00:01:03,661 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:01:04,177 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:01:04,181 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:01:05,859 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 00:01:05,859 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 00:01:05,860 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:01:06,181 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:01:06,187 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:03:12,777 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:03:12] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:03:13,887 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:03:13] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:04:01,835 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:04:01] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:04:02,235 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:04:02] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:04:45,782 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:04:45] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:04:48,332 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:04:48] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:06:12,353 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:12] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:06:14,513 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:14] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-21 00:06:35,963 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:35] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:06:36,548 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:36] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:06:52,950 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:52] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:06:54,210 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:06:54] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:07:37,287 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:07:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:07:38,706 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:07:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:08:23,625 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:08:23] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:08:25,772 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:08:25] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-21 00:11:46,186 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:11:46,288 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:11:49,830 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:11:49,835 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:11:52,871 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:11:52,944 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:11:53,319 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:11:53,327 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:11:55,378 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 00:11:55,378 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 00:11:55,379 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:11:55,693 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:11:55,698 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:12:09,998 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:12:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:12:11,682 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:12:11] "[35m[1mPOST /api/zhihu_batch_answers HTTP/1.1[0m" 500 -
+2025-06-21 00:14:12,602 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:14:12,655 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:14:13,014 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:14:13,019 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:14:21,083 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:14:21,128 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:14:21,454 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:14:21,459 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:14:35,008 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 00:14:35,008 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 00:14:35,009 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:14:35,320 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:14:35,324 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:14:55,490 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:14:55] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:14:57,112 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:14:57] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:17:48,479 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:17:48,532 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:17:48,878 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:17:48,883 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:17:52,923 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:17:52,965 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:17:53,298 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:17:53,303 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:17:56,338 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:17:56,385 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:17:56,712 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:17:56,717 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:20:23,567 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\utils\\util.py', reloading
+2025-06-21 00:20:23,628 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:20:23,991 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:20:23,997 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:21:05,235 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\utils\\util.py', reloading
+2025-06-21 00:21:05,294 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:21:05,645 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:21:05,650 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:21:51,951 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\utils\\util.py', reloading
+2025-06-21 00:21:51,987 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:21:52,315 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:21:52,320 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:22:23,529 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:22:23,565 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:22:24,098 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:22:24,104 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:22:37,220 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:22:37,270 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:22:37,600 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:22:37,605 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:22:40,292 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 00:22:40,292 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 00:22:40,293 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:22:40,607 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:22:40,612 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:22:59,926 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:22:59] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:23:01,678 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:23:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:25:29,629 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\batch_rename_md.py', reloading
+2025-06-21 00:25:29,695 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:25:30,073 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:25:30,078 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:26:34,496 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\batch_rename_md.py', reloading
+2025-06-21 00:26:34,541 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:26:34,888 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:26:34,894 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:27:40,262 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\batch_rename_md.py', reloading
+2025-06-21 00:27:40,319 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:27:40,670 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:27:40,675 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:27:55,769 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\batch_rename_md.py', reloading
+2025-06-21 00:27:55,804 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:27:56,121 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:27:56,126 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:28:37,912 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:28:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:28:38,576 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:28:38] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:29:25,584 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:29:25] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:29:32,129 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:29:32] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:30:24,632 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:30:24] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:30:26,826 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:30:26] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:31:57,081 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:31:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:32:16,119 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:32:16] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:32:57,940 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:32:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:33:07,073 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:33:07] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:36:57,313 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:36:57] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:37:01,600 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:37:01] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:40:34,172 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:40:34] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:40:34,968 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:40:34] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:44:30,183 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:44:30] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:44:55,845 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:44:55] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:48:56,955 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:48:56] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:49:07,043 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:49:07] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:51:25,970 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\check_md_question.py', reloading
+2025-06-21 00:51:26,160 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:51:26,665 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:51:26,670 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:51:58,468 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\batch_rename_md.py', reloading
+2025-06-21 00:51:58,517 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:51:58,857 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:51:58,862 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:53:15,343 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 00:53:15,387 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:53:16,386 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:53:16,392 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:53:22,446 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\check_md_question.py', reloading
+2025-06-21 00:53:22,521 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:53:22,926 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:53:22,932 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:53:31,650 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 00:53:31,650 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 00:53:31,651 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 00:53:31,959 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 00:53:31,963 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 00:54:14,329 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:54:14] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 00:54:20,554 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 00:54:20] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:00:13,743 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:00:13] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:00:14,432 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:00:14] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:00:31,280 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:00:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:00:42,929 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:00:42] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:02:07,270 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:02:07] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:02:09,956 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:02:09] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:02:28,923 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:02:28] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:02:47,758 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:02:47] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:03:18,824 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:03:18] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:03:30,518 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:03:30] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:04:09,824 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:04:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:04:15,531 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:04:15] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:05:27,426 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-21 01:05:27,556 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:05:31,383 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:05:31,388 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:05:32,412 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-21 01:05:32,476 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:05:32,882 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:05:32,887 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:05:38,954 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-21 01:05:39,021 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:05:39,358 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:05:39,363 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:05:41,389 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\main_zhihu.py', reloading
+2025-06-21 01:05:41,437 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:05:41,776 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:05:41,782 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:05:46,933 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 01:05:46,933 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 01:05:46,935 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:05:47,253 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:05:47,257 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:06:32,688 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:06:32] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:06:34,980 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:06:34] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:06:59,683 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 01:06:59,738 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:07:00,668 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:07:00,673 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:07:03,266 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.3.5:5000
+2025-06-21 01:07:03,266 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-06-21 01:07:03,267 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 01:07:03,600 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 01:07:03,604 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 01:07:24,796 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:07:24] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:07:39,093 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:07:39] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:08:43,288 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:08:43] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:08:57,139 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:08:57] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:09:20,368 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:09:20] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:09:23,278 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:09:23] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:10:12,582 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:10:12] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:10:24,741 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:10:24] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:11:09,817 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:11:09] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:11:13,311 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:11:13] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:11:31,057 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:11:31] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:11:40,297 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:11:40] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:12:25,364 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:12:25] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:12:29,586 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:12:29] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:14:37,706 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:14:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:14:43,389 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:14:43] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:16:37,463 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:16:37] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 01:16:51,386 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 01:16:51] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
