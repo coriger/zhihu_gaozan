@@ -1264,3 +1264,9 @@ jinja2.exceptions.TemplateSyntaxError: tag name expected
 2025-06-21 04:18:20,103 - werkzeug - INFO -  * Restarting with stat
 2025-06-21 04:18:24,328 - werkzeug - WARNING -  * Debugger is active!
 2025-06-21 04:18:24,334 - werkzeug - INFO -  * Debugger PIN: 238-796-438
+2025-06-21 11:05:55,173 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 11:05:55] "OPTIONS /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 11:05:56,268 - werkzeug - INFO - 127.0.0.1 - - [21/Jun/2025 11:05:56] "POST /api/zhihu_batch_answers HTTP/1.1" 200 -
+2025-06-21 11:08:16,476 - werkzeug - INFO -  * Detected change in 'D:\\Downloads\\zhihu-download-main\\app.py', reloading
+2025-06-21 11:08:16,694 - werkzeug - INFO -  * Restarting with stat
+2025-06-21 11:08:22,068 - werkzeug - WARNING -  * Debugger is active!
+2025-06-21 11:08:22,079 - werkzeug - INFO -  * Debugger PIN: 238-796-438
