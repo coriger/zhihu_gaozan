@@ -1,0 +1,248 @@
+# 标签
+
+```dataviewjs
+// --- “终极一体化”聚焦模式方案 (v11 - 可调亮度版) ---
+// 增加了亮度调节选项，并等待最终诊断结果。
+
+// --- 1. 可配置选项 ---
+const dimOpacity = 0.95; // 您可以在这里调整“暗度”，数值在 0.0 (全透明) 到 1.0 (不透明)之间，建议 0.2 ~ 0.5
+
+// --- 2. 定义聚焦模式的CSS规则 ---
+const focusModeStyles = `
+/* 由DataviewJS动态创建的聚焦模式样式 - v11 */
+body.focus-on-highlights .markdown-reading-view .markdown-preview-section > * {
+    opacity: ${dimOpacity} !important;
+    pointer-events: none !important;
+    transition: opacity 0.3s ease-in-out;
+}
+/* 需要“点亮”并恢复交互的元素 */
+body.focus-on-highlights .callout,
+body.focus-on-highlights .dataview.js-view-bcontainer,
+body.focus-on-highlights .markdown-reading-view .markdown-preview-section > *:has(mark) {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+}
+`;
+
+// --- 3. 动态注入CSS的逻辑 ---
+const styleId = 'gemini-focus-mode-style-v11';
+const oldStyleEl = document.getElementById(styleId);
+if (oldStyleEl) {
+    oldStyleEl.remove();
+}
+const styleEl = document.createElement('style');
+styleEl.id = styleId;
+styleEl.textContent = focusModeStyles;
+document.head.appendChild(styleEl);
+
+// --- 4. 创建交互式按钮的逻辑 ---
+const textWhenOn = '✓ 已开启聚焦 (点击关闭)';
+const textWhenOff = '开启聚焦模式';
+const btn = dv.el('button', '');
+
+const updateButtonState = () => {
+    if (document.body.classList.contains('focus-on-highlights')) {
+        btn.textContent = textWhenOn;
+    } else {
+        btn.textContent = textWhenOff;
+    }
+};
+
+btn.addEventListener('click', (event) => {
+    event.stopPropagation();
+    document.body.classList.toggle('focus-on-highlights');
+    updateButtonState();
+});
+
+updateButtonState();
+  
+
+```
+
+```dataviewjs
+
+// 是否在顶级标签前也显示 # 符号
+
+  
+
+const showHashOnTopLevel = true;
+
+  
+
+  
+
+// --- 脚本开始 ---
+
+  
+
+// 获取当前文件的所有标签，并去除每个标签开头的'#'
+
+  
+
+const tags = dv.current().file.tags.map(t => t.substring(1));
+
+  
+
+  
+
+// 创建一个根对象来存储层级结构
+
+  
+
+const hierarchy = {};
+
+  
+
+  
+
+// 遍历每个标签字符串
+
+  
+
+for (const tag of tags) {
+
+  
+
+    let currentLevel = hierarchy;
+
+  
+
+    // 按'/'拆分标签来获取层级
+
+  
+
+    const parts = tag.split('/');
+
+  
+
+  
+
+    // 逐级深入，如果层级不存在则创建它
+
+  
+
+    for (const part of parts) {
+
+  
+
+        if (!currentLevel[part]) {
+
+  
+
+            currentLevel[part] = {};
+
+  
+
+        }
+
+  
+
+        currentLevel = currentLevel[part];
+
+  
+
+    }
+
+  
+
+}
+
+  
+
+  
+
+// 递归函数，用于将层级对象渲染成HTML列表
+
+  
+
+function createList(level, isTopLevel = false) {
+
+  
+
+    // 如果当前层级没有子项，则不渲染
+
+  
+
+    if (Object.keys(level).length === 0) {
+
+  
+
+        return "";
+
+  
+
+    }
+
+  
+
+  
+
+    let html = "<ul>";
+
+  
+
+    for (const key in level) {
+
+  
+
+        const prefix = (isTopLevel && showHashOnTopLevel) ? "#" : "";
+
+  
+
+        // 渲染当前项，并递归调用以渲染子项
+
+  
+
+        html += `<li>${prefix}${key}${createList(level[key])}</li>`;
+
+  
+
+    }
+
+  
+
+    html += "</ul>";
+
+  
+
+    return html;
+
+  
+
+}
+
+  
+
+  
+
+// 开始渲染并输出到页面
+
+  
+
+const listHtml = createList(hierarchy, true);
+
+  
+
+  
+
+if (listHtml) {
+
+  
+
+    dv.paragraph(listHtml);
+
+  
+
+} else {
+
+  
+
+    dv.paragraph("当前文件没有发现层级标签。");
+
+  
+
+}
+
+  
+
+```

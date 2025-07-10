@@ -147,35 +147,35 @@ class ZhihuParser:
                 header.replace_with(markdown_header)
 
             # 处理回答中的图片
-            for img in content_element.find_all("img"):
-                try:
-                    if 'src' in img.attrs:
-                        img_url = img.attrs['src']
-                    else:
-                        continue
+            # for img in content_element.find_all("img"):
+            #     try:
+            #         if 'src' in img.attrs:
+            #             img_url = img.attrs['src']
+            #         else:
+            #             continue
 
-                    img_name = urllib.parse.quote(os.path.basename(img_url))
-                    img_path = f"{markdown_title}/{img_name}"
+            #         img_name = urllib.parse.quote(os.path.basename(img_url))
+            #         img_path = f"{markdown_title}/{img_name}"
 
-                    extensions = ['.jpg', '.png', '.gif']  # 可以在此列表中添加更多的图片格式
+            #         extensions = ['.jpg', '.png', '.gif']  # 可以在此列表中添加更多的图片格式
 
-                    # 如果图片链接中图片后缀后面还有字符串则直接截停
-                    for ext in extensions:
-                        index = img_path.find(ext)
-                        if index != -1:
-                            img_path = img_path[:index + len(ext)]
-                            break  # 找到第一个匹配的格式后就跳出循环
+            #         # 如果图片链接中图片后缀后面还有字符串则直接截停
+            #         for ext in extensions:
+            #             index = img_path.find(ext)
+            #             if index != -1:
+            #                 img_path = img_path[:index + len(ext)]
+            #                 break  # 找到第一个匹配的格式后就跳出循环
 
-                    img["src"] = img_path
+            #         img["src"] = img_path
 
-                    # 下载图片并保存到本地
-                    os.makedirs(os.path.dirname(img_path), exist_ok=True)
-                    download_image(img_url, img_path, self.session)
+            #         # 下载图片并保存到本地
+            #         os.makedirs(os.path.dirname(img_path), exist_ok=True)
+            #         download_image(img_url, img_path, self.session)
 
-                    # 在图片后插入换行符
-                    insert_new_line(self.soup, img, 1)
-                except Exception as e:
-                    self.log('warning', f"Error downloading image {img.get('src', 'unknown')}: {str(e)}")
+            #         # 在图片后插入换行符
+            #         insert_new_line(self.soup, img, 1)
+            #     except Exception as e:
+            #         self.log('warning', f"Error downloading image {img.get('src', 'unknown')}: {str(e)}")
                     # 继续处理下一张图片，不中断进程
 
             # 在图例后面加上换行符

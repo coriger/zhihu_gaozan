@@ -98,4 +98,39 @@
     function downloadImage(url, filename){
         GM_download({url, name: filename, saveAs: false});
     }
+
+    // 添加“复制标题和链接”按钮
+    if (!document.querySelector('.zhihu-copy-title-url-btn')) {
+        const copyBtn = document.createElement('button');
+        copyBtn.textContent = '复制标题和链接';
+        copyBtn.className = 'zhihu-export-btn zhihu-copy-title-url-btn';
+        copyBtn.style.top = '180px';
+        copyBtn.onclick = function() {
+            // 获取标题
+            let title = '';
+            // 问题页/回答页
+            let h1 = document.querySelector('h1.QuestionHeader-title, h1.QuestionHeader-title, .QuestionHeader-title');
+            if (h1) {
+                title = h1.textContent.trim();
+            } else {
+                // 首页、列表页等
+                let metaTitle = document.querySelector('title');
+                if (metaTitle) {
+                    title = metaTitle.textContent.replace(/ - 知乎.*/, '').trim();
+                }
+            }
+            // 获取url
+            let url = location.href;
+            // 只保留 https://www.zhihu.com/question/xxxxxx 结构
+            let match = url.match(/https:\/\/www.zhihu.com\/question\/\d+/);
+            if (match) url = match[0];
+            // 复制格式：标题\turl
+            const text = `${title}\t${url}`;
+            navigator.clipboard.writeText(text).then(()=>{
+                copyBtn.textContent = '已复制!';
+                setTimeout(()=>copyBtn.textContent = '复制标题和链接', 1200);
+            });
+        };
+        document.body.appendChild(copyBtn);
+    }
 })();
