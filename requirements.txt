@@ -3,3 +3,5 @@ bs4==0.0.2
 markdownify==0.12.1
 tqdm==4.66.2
 flask==3.0.3
+pywinauto
+psutil

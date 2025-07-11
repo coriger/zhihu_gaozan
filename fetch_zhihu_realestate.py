@@ -11,6 +11,7 @@ import threading
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 import queue
+import psutil
 
 def get_question_id(url):
     m = re.search(r'/question/(\d+)', url)
@@ -33,12 +34,31 @@ def load_cookies_from_txt(cookies_path):
 
 def fetch_zhihu_answers_by_browser(url, min_vote=50, max_answers=10, cookies_path='cookies.txt'):
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, args=['--disable-blink-features=AutomationControlled'])
+        browser = p.chromium.launch(headless=False, args=['--disable-blink-features=AutomationControlled', '--start-minimized'])
         context = browser.new_context()
         cookies = load_cookies_from_txt(cookies_path)
         if cookies:
             context.add_cookies(cookies)
         page = context.new_page()
+        time.sleep(1)  # 等待窗口弹出
+        def minimize_latest_chrome_window():
+            import psutil
+            from pywinauto import Desktop
+            chrome_procs = [p for p in psutil.process_iter(['name', 'pid', 'create_time']) if p.info.get('name') and 'chrome' in p.info.get('name').lower()]
+            if not chrome_procs:
+                return
+            latest_proc = max(chrome_procs, key=lambda p: p.info.get('create_time', 0))
+            target_pid = latest_proc.info['pid']
+            for w in Desktop(backend='uia').windows():
+                try:
+                    if w.process_id() == target_pid:
+                        w.minimize()
+                except Exception:
+                    continue
+        try:
+            minimize_latest_chrome_window()
+        except Exception as e:
+            print('窗口最小化失败:', e)
         page.goto(url, timeout=60000)
         try:
             # 先等待问题标题，判断是否进入了问题页
@@ -213,7 +233,7 @@ def process_questions_md():
                     new_lines.append(line.rstrip() + f' {processed_marker}\n')
                 else:
                     print(f'无高赞答案: {url}')
-                    new_lines.append(line)
+                    new_lines.append(line.rstrip() + f' {processed_marker}\n')
             except Exception as e:
                 print(f'抓取异常: {e}')
                 new_lines.append(line)
@@ -262,52 +282,71 @@ class TopicFileHandler(FileSystemEventHandler):
     def on_closed(self, event):
         self._handle_event(event, '被关闭')
 
+# 全局文件锁字典
+file_locks = {}
+file_locks_lock = threading.Lock()
+
+def get_file_lock(file_path):
+    with file_locks_lock:
+        if file_path not in file_locks:
+            file_locks[file_path] = threading.Lock()
+        return file_locks[file_path]
+
 def process_topic_md(md_path, topic_name, out_dir):
     processed_marker = '【已处理】'
     if not os.path.exists(md_path):
         print(f'未找到 {md_path}')
         return
-    with open(md_path, 'r', encoding='utf-8') as f:
-        lines = f.readlines()
-    # 用知乎问题ID做唯一性去重
-    processed_ids = set()
-    for line in lines:
-        if '\t' in line and processed_marker in line:
-            question, url = line.strip().split('\t', 1)
-            url = url.replace(processed_marker, '').strip()
-            qid = get_question_id(url)
-            if qid:
-                processed_ids.add(qid)
-    new_lines = []
-    updated = False
-    for line in lines:
-        if '\t' in line and processed_marker not in line:
-            question, url = line.strip().split('\t', 1)
-            qid = get_question_id(url)
-            if qid and qid in processed_ids:
-                print(f'问题已处理过（ID去重），直接标记：{question} ({url})')
-                new_lines.append(line.rstrip() + f' {processed_marker}\n')
-                updated = True
+    file_lock = get_file_lock(md_path)
+    with file_lock:
+        # 读取当前所有行，找到第一个未处理的
+        with open(md_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        processed_ids = set()
+        for line in lines:
+            if '\t' in line and processed_marker in line:
+                question, url = line.strip().split('\t', 1)
+                url = url.replace(processed_marker, '').strip()
+                qid = get_question_id(url)
+                if qid:
+                    processed_ids.add(qid)
+        # 找到第一个未处理的行内容
+        target_line = None
+        for line in lines:
+            if '\t' in line and processed_marker not in line:
+                target_line = line.rstrip('\n')
                 break
+        if not target_line:
+            return  # 没有未处理的
+        # 处理目标行
+        question, url = target_line.strip().split('\t', 1)
+        qid = get_question_id(url)
+        updated_line = None
+        if qid and qid in processed_ids:
+            print(f'问题已处理过（ID去重），直接标记：{question} ({url})')
+            updated_line = target_line + f' {processed_marker}\n'
+        else:
             print(f'抓取: {question} ({url})')
             try:
                 title, answers = fetch_zhihu_answers_by_browser(url, min_vote=50, cookies_path="cookies.txt")
                 if answers:
                     save_answers_md_browser(title, answers, out_dir=out_dir)
-                    new_lines.append(line.rstrip() + f' {processed_marker}\n')
+                    updated_line = target_line + f' {processed_marker}\n'
                 else:
                     print(f'无高赞答案: {url}')
-                    new_lines.append(line)
+                    updated_line = target_line + f' {processed_marker}\n'
             except Exception as e:
                 print(f'抓取异常: {e}')
-                new_lines.append(line)
-            updated = True
-            break
-        else:
-            new_lines.append(line)
-    if updated:
+                updated_line = target_line + '\n'
+        # 写回前重新读取文件，精确查找并更新该行
+        with open(md_path, 'r', encoding='utf-8') as f:
+            latest_lines = f.readlines()
+        for idx, line in enumerate(latest_lines):
+            if line.rstrip('\n') == target_line:
+                latest_lines[idx] = updated_line
+                break
         with open(md_path, 'w', encoding='utf-8') as f:
-            f.writelines(new_lines)
+            f.writelines(latest_lines)
         print(f'已写回 {md_path}，等待下次变动或继续处理...')
 
 def ensure_topic_folder(topic_name):

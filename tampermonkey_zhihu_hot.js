@@ -133,4 +133,100 @@
         };
         document.body.appendChild(copyBtn);
     }
+
+    // 自动导出按钮
+    if (!document.querySelector('.zhihu-auto-export-btn')) {
+        const autoExportBtn = document.createElement('button');
+        autoExportBtn.textContent = '自动导出到本地问题库';
+        autoExportBtn.className = 'zhihu-export-btn zhihu-auto-export-btn';
+        autoExportBtn.style.top = '240px';
+        autoExportBtn.onclick = async function() {
+            // 分类列表，初始固定
+            const defaultCats = ['爱好', '大萧条', '房价', '感悟', '资产配置'];
+            let customCats = [];
+            try {
+                customCats = JSON.parse(localStorage.getItem('zhihu_custom_cats')||'[]');
+            } catch(e) { customCats = []; }
+            const allCats = [...defaultCats, ...customCats.filter(c=>!defaultCats.includes(c))];
+            // 弹窗选择分类（美观平铺按钮样式）
+            let catHtml = `<div id='zhihu-cat-list' style='display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:16px;'>`;
+            allCats.forEach(c=>{
+                catHtml += `<div class='zhihu-cat-btn' data-cat="${c}" style='padding:8px 18px;border-radius:20px;background:#f3f6fa;color:#333;cursor:pointer;transition:.2s;border:1.5px solid #e0e3e8;font-size:16px;'>${c}</div>`;
+            });
+            catHtml += `<div class='zhihu-cat-btn' data-cat="__custom__" style='padding:8px 18px;border-radius:20px;background:#f3f6fa;color:#333;cursor:pointer;transition:.2s;border:1.5px solid #e0e3e8;font-size:16px;'>自定义</div>`;
+            catHtml += `</div>`;
+            catHtml += `<input id='zhihu-cat-input' style='display:none;width:85%;padding:8px 12px;font-size:15px;border-radius:8px;border:1.5px solid #e0e3e8;margin-bottom:10px;' placeholder='输入新分类'/><br>`;
+            catHtml += `<button id='zhihu-cat-ok' style='margin-top:8px;padding:10px 32px;background:#4361ee;color:#fff;border:none;border-radius:8px;font-size:16px;cursor:pointer;'>确定导出</button>`;
+            // 新增关闭按钮
+            catHtml += `<div id='zhihu-cat-close' style='position:absolute;top:12px;right:18px;font-size:22px;color:#888;cursor:pointer;user-select:none;'>×</div>`;
+            let div = document.createElement('div');
+            div.innerHTML = catHtml;
+            div.style = 'position:fixed;top:30%;left:50%;transform:translate(-50%,-50%);background:#fff;padding:32px 40px;z-index:99999;border-radius:14px;box-shadow:0 2px 24px #0002;text-align:center;min-width:340px;';
+            div.style.position = 'fixed';
+            div.style.boxSizing = 'border-box';
+            document.body.appendChild(div);
+            // 关闭按钮逻辑
+            div.querySelector('#zhihu-cat-close').onclick = ()=>div.remove();
+            // 分类选择逻辑
+            let selectedCat = '';
+            const catBtns = div.querySelectorAll('.zhihu-cat-btn');
+            const input = div.querySelector('#zhihu-cat-input');
+            catBtns.forEach(btn=>{
+                btn.onclick = ()=>{
+                    catBtns.forEach(b=>{b.style.background='#f3f6fa';b.style.color='#333';b.style.border='1.5px solid #e0e3e8';});
+                    btn.style.background = '#4361ee';
+                    btn.style.color = '#fff';
+                    btn.style.border = '2px solid #4361ee';
+                    selectedCat = btn.dataset.cat;
+                    if(selectedCat==='__custom__'){
+                        input.style.display='inline-block';
+                        setTimeout(()=>input.focus(), 50);
+                    }else{
+                        input.style.display='none';
+                    }
+                };
+            });
+            // 默认选中第一个
+            setTimeout(()=>catBtns[0].click(), 10);
+            div.querySelector('#zhihu-cat-ok').onclick = async ()=>{
+                let cat = selectedCat;
+                if(cat==='__custom__') cat = input.value.trim();
+                if(!cat) { alert('请选择或填写分类'); return; }
+                // 新分类写入localStorage
+                if(!defaultCats.includes(cat) && !customCats.includes(cat)) {
+                    customCats.push(cat);
+                    localStorage.setItem('zhihu_custom_cats', JSON.stringify(customCats));
+                }
+                // 获取标题
+                let title = '';
+                let h1 = document.querySelector('h1.QuestionHeader-title, .QuestionHeader-title');
+                if (h1) title = h1.textContent.trim();
+                else {
+                    let metaTitle = document.querySelector('title');
+                    if (metaTitle) title = metaTitle.textContent.replace(/ - 知乎.*/, '').trim();
+                }
+                // 获取url
+                let url = location.href;
+                let match = url.match(/https:\/\/www.zhihu.com\/question\/\d+/);
+                if (match) url = match[0];
+                // 调用本地接口
+                div.innerHTML = '正在提交...';
+                fetch('http://127.0.0.1:5001/add_zhihu_question', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({title, url, category: cat})
+                })
+                .then(r=>r.json())
+                .then(res=>{
+                    div.innerHTML = res.success ? '导出成功！' : ('导出失败：'+res.msg);
+                    setTimeout(()=>div.remove(), 1200);
+                })
+                .catch(()=>{
+                    div.innerHTML = '网络或本地服务错误！';
+                    setTimeout(()=>div.remove(), 1500);
+                });
+            };
+        };
+        document.body.appendChild(autoExportBtn);
+    }
 })();
