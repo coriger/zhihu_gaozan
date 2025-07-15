@@ -8,7 +8,7 @@ from main_zhihu import ZhihuParser
 from main_csdn import CsdnParser
 from main_weixin import WeixinParser
 from main_juejin import JuejinParser
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 from utils.util import get_valid_filename
 
 import json
@@ -36,7 +36,7 @@ logger.addHandler(console)
 logger.propagate = True
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, supports_credentials=True, resources={r"/*": {"origins": "*"}})
 
 fix_cookies = "Hm_lvt_df16839cf44aeee94fb85ae1d3c1e17b=1750600402; Hm_lpvt_df16839cf44aeee94fb85ae1d3c1e17b=1750600402; SESSIONID=G9uhAADGkiKLDiukSwJtrsJkSWZhAkPpEvgtlQBBhGV; JOID=VlAQC05HK5jxSv0MREoGyxKfRBdcIBXlmAm8dwEQcaKJIqxqPS91-ZVH_AxESzni4gxqVPj8qt9O1hFIh4x_bMw=; osd=Ul8XB0tDJJ_9T_kDQ0YDzx2YSBJYLxLpnQ2zcA0Vda2OLqluMih5_JFI-wBBTzbl7gluW__wr9tB0R1Ng4N4YMk=; _xsrf=phda5pXGa1MKjASe91FwrZZGhtA05mGV; _zap=5c117f66-613b-4cb4-9d44-79f583d670b4; d_c0=NbPTFbxqfhqPTsaLa3gge3snl9wGBktotO8=|1747940295; HMACCOUNT=4526F4C76E0774FB; DATE=1747940296506; __snaker__id=Ethz4N4NAXd7Jmwz; cmci9xde=U2FsdGVkX184/O+tYpNyfrlUjbpcJvopwJoM+kOLZhsTVPMhLJ7ngI/44IcIy23i+SketmGFC9SvNEM2SFH2Nw==; pmck9xge=U2FsdGVkX19nL8TrXdyzvLQTsYSS215BxRUwy7EGyzA=; crystal=U2FsdGVkX1+jz+5sRO9vF9O6dPu55A3tWeqwwjXT0rwg1MwEwpDtK0mg6e+Lns9oFDMnYFGUeCM5C3WVo/SPrlsDPbnrq/8uvn/llB9wGQ5gx/MORpB2MYwO0HIBGLqi4rDvmOZJ3eFD7SwI3Vtm0Ol+t4IDmDKTNg8+t5sJEScTmMzczEu0roooSoDzYsVMlS7IYwksn2F6lF5M8wdEQuNVGW17K2wvHWRd9rnAe2UsoLzfW4jEb++hHtIxNcdM; assva6=U2FsdGVkX19bZcHyYgoL15qkRy3LH6Lc35vrLcOigpc=; assva5=U2FsdGVkX1+bC1VJbRjFdbjDhvZ2WSBsrNSynkmrUjAViPqv770Ec+tIVEU+xuuDPaWA+Kkows6KGb8n4w8NeA==; vmce9xdq=U2FsdGVkX1/PyOwnlLUdpVqTrkujGeJnNnYfcwwxUIcgfE+jZFu3Ex59MZ1miAuNp5N63FsFKOxJBNkZIuttFFpRHSdFtAuCelwQs82CnL4OlIRsXwyjNlfRUjb9dLmsQDAGarx/CK/2/DLgy95zCg7qExQXFO0vtmV+GTyKh5c=; q_c1=cd09c77351464255b68785b7ab425ca8|1747940393000|1747940393000; _ga=GA1.2.1649157437.1748481939; edu_user_uuid=edu-v1|8fafbaa4-af72-4f05-9e31-10c044f42de2; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1749559155; _tea_utm_cache_586864={%22utm_source%22:%22zhihu%22%2C%22utm_medium%22:%22organic%22%2C%22utm_content%22:%22search_hot%22}; z_c0=2|1:0|10:1750582725|4:z_c0|80:MS4xd0NJa0FBQUFBQUFtQUFBQVlBSlZUY1VUUldudHdKM3k2WWJaY3p4UmMtT0VpUkk1MEZSbTV3PT0=|73aa20c8dda58f6e36d652173d9982b40fb7f1d1ed00d1b40d007d5165460d03; SESSIONID=k3pdBMvHVV7uePjtBIDVX8MxAkSw2I39M5rnMpklOKR; JOID=U1oUB0_hRDudd0YzSOViaXin9iNRiXRO-TAIRgWyEQ_tEhNaPyRzXvBxRjVNox0gKxEUoCj6NY4SPBgUPNAFJko=; osd=VFAdAE_mTjKad0E5QeJibnKu8SNWg31J-TcCTwKyFgXkFRNdNS10Xvd7TzJNpBcpLBETqiH9NYkYNR8UO9oMIUo=; tst=r; __zse_ck=004_HBPSTJj50O/mm8m/ZnOen2qcIEkA2rvjWg8nCB4Y7zuZ/2Jo=Tb9DSdOIrSCFKmWFvO47m7xiOuh8ckGHoH2kTWND4hNPeaZ7rflx2ucO1zmmx2cSS8ZZ1XwMXDsaNbD-kKy1kBEVmauHuJ48jErpf03SmCBExf8GDdILiDV7qqXaOFxTP2e/KFki+riq3L1+M1qMvHu5KWMcz4iqJFAAwG0QP97+Ez49ItGALkOeYMWtP9S0fGrk+aKKofdP2DBk; gdxidpyhxdE=SpxosHNkJHeegOcDwY%2BKSm66vj8KAoS6qNv8jXoH391nRuM39fVw5IIU7l%5CqtbQKiCtHGn%2F4OEiviMs8IUVScV4DzqPlJZ7mA%2ByjmjpO%5CBO%2BN68s%5CIhClG1ZLs7froW8XSGL537GiN8NRK%2FsqVezClGB8HPyKGTLSHZ%5Corj2t8rjr1ax%3A1751211965500; sec_token=e3948308cf075ffe61a242089efad8ef; captcha_session_v2=XwDGdev8YD8sIQTrILddrztRpk7XOeETC0AQq3wvVC5UTSkdKrWaDnUi5kAS9BKz; captcha_ticket_v2=eyJ2YWxpZGF0ZSI6IkNOMzFfNG0qbUNWLmNIRkJoUHd0WG96Zi5hUzhiR2JpckxDZDB5Ym1UZmxHcWd4M01fZGdvSVBlbExOQnhRaTVLd0NXWFBLY2JyR0VQdXIuVkV3Vm5VYnV1Qy4uTWNfdkZnUHBCdkUwU3RsWVhmWGFKZ1lKTm5XayplWFpGaVZZSm1WQV9HZWVEV0lRYjBZTip3bS44OG14bW0wVUR3YTROaUNpMlQ5RWdJYlN2ZUdLZjFoZkh1UmlUX3BlMDl0Wnc0V1JGY2s1UVJZbmdYNlJYQVJXdmlaVmFabjNELjZEKmZzZHNLYi5tbEZ3NEVTeUpycTBKSmRzclNFeGFfZkppa2NKaFcuZFNHZWtNVmRWbUl6Lkdkd0kzcmwyTUdrVkxIbk1qRkNqMEoqTCptSG1BdllWbWZGSEF5QXI2dmRfbXBHeTB0OCpzNkp4Y3ZEQktnUFhab3NmenFUUFE0OTVROERKSndEdFgwX01BY3BOMFFCY2xkMjNzS1VQek1YaE0wZ3NBVypHUTg0aVBqKjAudkF1eUEueTJOaXdBRzl1U21ObHNqeUJoYy44NVFkRGFWa2hEc1NsS0xGeVRWMCpRTllsRjNpLk50VFhudWIucHVzVCpLMTZ4Z0dmRnZEUWFKNnU1MllnWHRWWEIybjNiYjA2cWkxOXNaOTRJNVoyYlM1ODNDYzZLNFk3N192X2lfMSJ9; BEC=6ff32b60f55255af78892ba1e551063a; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1751211832"
 
@@ -365,6 +365,53 @@ def zhihu_batch_answers():
         return jsonify({'success': True, 'filename': filename})
     except Exception as e:
         return jsonify({'success': False, 'error': str(e)}), 500
+
+
+@app.route("/api/zhihu_batch_dav_answers", methods=["POST"])
+@cross_origin()
+def zhihu_batch_dav_answers():
+    """
+    接收大V回答列表，批量合并导出为 Markdown 文件，存到 md/大V/{dav_name}.md
+    """
+    import re
+    from markdownify import markdownify as md
+    data = request.get_json(force=True)
+    dav_name = data.get('dav_name', '').strip() or '大V'
+    answers = data.get('answers', [])
+    if not answers or not isinstance(answers, list):
+        return jsonify({'success': False, 'msg': '无效的回答列表'}), 400
+    out_dir = os.path.join('md', '大V')
+    os.makedirs(out_dir, exist_ok=True)
+    filename = get_valid_filename(dav_name) + '.md'
+    save_path = os.path.join(out_dir, filename)
+    md_blocks = [f'# {dav_name} 知乎回答合集\n']
+    for idx, ans in enumerate(answers, 1):
+        q_title = ans.get('question_title', '').strip()
+        q_url = ans.get('question_url', '').strip()
+        vote = ans.get('voteup_count', 0)
+        author = ans.get('author', '').strip() or dav_name
+        content_html = ans.get('content', '')
+        # HTML转Markdown
+        content_md = md(content_html, heading_style='ATX')
+        # 清理所有 Markdown 非图片链接，只保留文字
+        content_md = re.sub(r'(?<!\!)\[[^\]]+\]\([^\)]+\)', r'\1', content_md)
+        # 清理 data:image/xxx 的图片
+        content_md = re.sub(r'!\[]\(data:image/[^)]+\)', '', content_md)
+        # 清理“文本”无意义图片alt
+        content_md = re.sub(r'!\[文本\]\([^)]+\)', '', content_md)
+        # 清理多余空行
+        content_md = re.sub(r'\n{3,}', '\n\n', content_md)
+        # 清理正文内分隔符（---、***、___独占一行）
+        content_md = re.sub(r'^(\s*)(---|\*\*\*|___)(\s*)$', '', content_md, flags=re.MULTILINE)
+        # 清理正文内 Markdown 标题（#...，防止分隔符变成标题）
+        content_md = re.sub(r'^(#{1,6})([^#\n])', r'-\2', content_md, flags=re.MULTILINE)
+        block = f'## 回答{idx}\n- 问题：[{q_title}]({q_url})\n- 作者：{author}\n- 赞同数：{vote}\n\n{content_md.strip()}\n'
+        md_blocks.append(block)
+    # 分隔线
+    md_text = '\n\n---\n\n'.join(md_blocks)
+    with open(save_path, 'w', encoding='utf-8') as f:
+        f.write(md_text)
+    return jsonify({'success': True, 'filename': filename, 'path': save_path})
 
 
 if __name__ == "__main__":

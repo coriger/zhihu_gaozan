@@ -19,3 +19,13 @@
 深圳房价真的会降下来吗？	https://www.zhihu.com/question/448590953 【已处理】
 2025，你觉得现在买房合适不？	https://www.zhihu.com/question/14995969629 【已处理】
 万科已经名存实亡了吗？	https://www.zhihu.com/question/11518310910 【已处理】
+当下房子已经跌到这样了，你会买吗，为什么？	https://www.zhihu.com/question/649439385 【已处理】
+买房后你快乐吗？	https://www.zhihu.com/question/386034543 【已处理】
+成都，有啥消息吗，为啥突然这么多人卖房？直达问题	https://www.zhihu.com/question/1922423208000357470 【已处理】
+2025年7月深圳的小产权房还能买吗？直达问题	https://www.zhihu.com/question/1925638691956692583 【已处理】
+现在回头看当年马云说未来房子不如葱，不要买房，他是如何预测到的？直达问题	https://www.zhihu.com/question/1918700470035285157 【已处理】
+房价跌到什么程度可以抄底？直达问题	https://www.zhihu.com/question/665475682 【已处理】
+25年买房合适吗？直达问题	https://www.zhihu.com/question/1918971867022221803 【已处理】
+全国房地产价格都在跌，什么时候买房最佳？直达问题	https://www.zhihu.com/question/672465236 【已处理】
+党员带头买房促进房地产止跌回稳，是否可行？直达问题	https://www.zhihu.com/question/1922983246951592619 【已处理】
+前两年冲动买房的人怎么样了？直达问题	https://www.zhihu.com/question/621951562 【已处理】
