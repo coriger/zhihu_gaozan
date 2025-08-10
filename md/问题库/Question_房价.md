@@ -29,3 +29,5 @@
 全国房地产价格都在跌，什么时候买房最佳？直达问题	https://www.zhihu.com/question/672465236 【已处理】
 党员带头买房促进房地产止跌回稳，是否可行？直达问题	https://www.zhihu.com/question/1922983246951592619 【已处理】
 前两年冲动买房的人怎么样了？直达问题	https://www.zhihu.com/question/621951562 【已处理】
+国内房价为什么这几年开始跌了？直达问题	https://www.zhihu.com/question/1933666767739270461 【已处理】
+现在把房子降价卖掉好，还是再等等？直达问题	https://www.zhihu.com/question/1931253644772222930 【已处理】

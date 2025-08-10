@@ -1,0 +1,37 @@
+你认为币圈能改变普通人的命运吗？直达问题	https://www.zhihu.com/question/637535744 【已处理】
+合约真的有一夜暴富吗 你见过真正的合约交易高手吗？直达问题	https://www.zhihu.com/question/635329983 【已处理】
+为什么有人认为玩合约是死路一条？直达问题	https://www.zhihu.com/question/413573188 【已处理】
+币圈合约为什么爆仓了还有那么多人玩？直达问题	https://www.zhihu.com/question/469292036 【已处理】
+在币圈，几千块钱赚到100w有多难？直达问题	https://www.zhihu.com/question/11631894241 【已处理】
+为什么有人说炒币不要玩合约？直达问题	https://www.zhihu.com/question/460948274 【已处理】
+怎么戒掉币圈合约瘾？直达问题	https://www.zhihu.com/question/647443150 【已处理】
+在币圈拿10000u出来做合约会有多少手续费？直达问题	https://www.zhihu.com/question/1916553986254807334 【已处理】
+玩币做合约亏了小十万，还要继续做回本吗？直达问题	https://www.zhihu.com/question/431170983 【已处理】
+为什么那么多人喜欢在币圈做合约？导出直达问题	https://www.zhihu.com/question/645363499 【已处理】
+你有哪些好用的合约交易策略？直达问题	https://www.zhihu.com/question/647465976 【已处理】
+永续合约是否可以真的赚到钱？直达问题	https://www.zhihu.com/question/649615842 【已处理】
+都在哪里玩合约，赚了还是亏了？直达问题	https://www.zhihu.com/question/1905989902962779751 【已处理】
+我做合约交易如何避免爆仓？直达问题	https://www.zhihu.com/question/515951059 【已处理】
+币圈合约是赌博吗？直达问题	https://www.zhihu.com/question/9527865513 【已处理】
+在币圈最不能做的一件事是什么？直达问题	https://www.zhihu.com/question/650794943 【已处理】
+你在币圈吃过多少次亏？直达问题	https://www.zhihu.com/question/606950090 【已处理】
+币圈一天亏了8万，我该怎么办？直达问题	https://www.zhihu.com/question/13879213144 【已处理】
+合约爆仓的钱是被对手赚了还是交易所？直达问题	https://www.zhihu.com/question/447757135 【已处理】
+币圈新手小白玩合约为什么会爆仓？直达问题	https://www.zhihu.com/question/1914035542959559334 【已处理】
+做合约亏了好多，每次亏了总是忍不住再充，怎么才能不再走火入魔啊？直达问题	https://www.zhihu.com/question/541817041 【已处理】
+一万人民币在合约如何更快的翻仓复利？直达问题	https://www.zhihu.com/question/535480274 【已处理】
+币圈说挣钱难的人为什么都是普通人？直达问题	https://www.zhihu.com/question/650576054 【已处理】
+玩比特币合约一年总共亏了9wr该怎么办，身上已经只剩下吃饭的钱了？直达问题	https://www.zhihu.com/question/1919206474137174454 【已处理】
+2025年的币圈：你认为是做合约还是做现货好呢？直达问题	https://www.zhihu.com/question/8431308120 【已处理】
+玩虚拟货币做合约到底有多少挣到钱的，你对合约有什么看法？直达问题	https://www.zhihu.com/question/668050448 【已处理】
+凭良心讲你玩永续合约挣到了钱吗？直达问题	https://www.zhihu.com/question/443598480 【已处理】
+合约到底是什么？直达问题	https://www.zhihu.com/question/2930551825 【已处理】
+你最意外的一笔收入是什么？直达问题	https://www.zhihu.com/question/522856095 【已处理】
+那些玩合约爆仓的人，后来都怎么样了？直达问题	https://www.zhihu.com/question/538749419 【已处理】
+合约交易 如何可以做到高胜率大盈利？直达问题	https://www.zhihu.com/question/593355940 【已处理】
+请擅长做保证金交易的高手解答下：作为交易者，行情到底是我们的朋友还是敌人？直达问题	https://www.zhihu.com/question/538868807 【已处理】
+为什么有时一开单就扛单，怎么开怎么亏，像被市场监控针对一样？直达问题	https://www.zhihu.com/question/655257761 【已处理】
+在期货市场研究人性是否比研究技术更有效？直达问题	https://www.zhihu.com/question/655520255 【已处理】
+进来说说自己合约亏损总结的重要原因，并有哪些改变策略！？直达问题	https://www.zhihu.com/question/1926170425680959129 【已处理】
+币圈合约交易我先开了2倍多单，等涨了一倍以后再改成10倍30倍，我看强平价格还是按照2倍的强平价格？直达问题	https://www.zhihu.com/question/646590294 【已处理】
+我国需要跟进“稳定币”吗？直达问题	https://www.zhihu.com/question/1919634264682653458 【已处理】

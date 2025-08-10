@@ -10,3 +10,4 @@
 为什么要远离社会底层？直达问题	https://www.zhihu.com/question/853504106 【已处理】
 穷人不敢创业的原因是什么？直达问题	https://www.zhihu.com/question/31362306 【已处理】
 为啥几乎都是穷人去炒股？直达问题	https://www.zhihu.com/question/11170811846 【已处理】
+为什么被收割的往往都是穷人？直达问题	https://www.zhihu.com/question/657900736 【已处理】
